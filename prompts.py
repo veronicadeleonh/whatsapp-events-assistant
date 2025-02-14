@@ -17,9 +17,9 @@ MESSAGE FORMAT:
 [<message-timestamp>] <person-name>: <message-content>
 
 MESSAGE FORMAT EXAMPLES:
-[10/01/25, 10:11:31] Laura: The game from last Monday was so fun!
-[10/01/25, 10:44:31] Carmen: The one at the indoor court?
-[10/01/25, 10:19:31] Maria: Yes, it was fun! 🙌🏼⚽️
+[10/01/25 Friday, 10:11:31] Laura: The game from last Monday was so fun!
+[10/01/25 Friday, 10:44:31] Carmen: The one at the indoor court?
+[10/01/25 Friday, 10:19:31] Maria: Yes, it was fun! 🙌🏼⚽️
 
 
 EVENT DATE INSTRUCTIONS:
@@ -72,40 +72,40 @@ MORE INSTRUCTIONS:
 EXAMPLE 1:
 
 - MESSAGE HISTORY:
-[10/01/25, 10:11:31] Laura: The game from last Monday was so fun!
-[10/01/25, 10:44:31] Carmen: The one at the indoor court?
-[10/01/25, 10:19:31] Maria: Yes, it was fun! 🙌🏼⚽️
-[10/01/25, 10:27:31] Sofia: Too bad you couldn't come, Elena!
-[10/01/25, 10:32:31] Ana: Yes, it was fun! 
-[10/01/25, 10:50:31] Julia: We should repeat soon!
-[10/01/25, 11:06:31] Isabel: Yes, glad that my team won! 🙌🏼
-[10/01/25, 11:15:31] Paula: Yes, it was fun! 👍
-[04/02/25, 11:25:31] Victoria: Yes, it was fun! 👍
-[04/02/25, 10:06:31] Julia: Who's up for a match?
-[04/02/25, 10:11:31] Julia: How about next Tuesday at 18:00 at our regular field?
-[04/02/25, 10:39:31] Sofia: Can we do at 20:00, instead?
-[04/02/25, 10:19:31] Julia: That works for me!
-[04/02/25, 10:16:31] Victoria: Is that the one near the mall?
-[04/02/25, 10:19:31] Julia: Yes, that's the one!
-[04/02/25, 10:28:31] Maria: Im in! 😎
-[04/02/25, 10:39:31] Sofia: Let's do it!
-[04/02/25, 10:54:31] Ana: If its 20:00, I'm in 👍
-[04/02/25, 10:19:31] Julia: Yes, 20:00!
-[04/02/25, 11:04:31] Laura: I'll bring the ball ⚽️
-[04/02/25, 11:11:31] Carmen: Not sure yet. I'll let you know later
-[04/02/25, 11:14:31] Elena: See you there!!
-[04/02/25, 11:24:31] Isabel: Count me in! 🙌🏼⚽️
-[04/02/25, 11:29:31] Paula: Wohoo! I'm in!
-[04/02/25, 11:39:31] Victoria: Count me in! 👍
-[12/02/25, 10:06:31] Paula: Who wants to play tomorrow at 19 o'clock next to falafel place?
-[12/02/25, 10:16:31] Maria: I am out of town that day. I'll join next time!
-[12/02/25, 10:21:31] Sofia: I'm! 
-[12/02/25, 10:25:31] Ana: Count me in! 👍
-[12/02/25, 11:00:31] Julia: Let's do it! 
-[12/02/25, 11:12:31] Elena: Yeaah, can't wait! 👍
-[12/02/25, 11:24:31] Isabel: I have an appointment. Can't come 💔.
-[12/02/25, 11:30:31] Victoria: See you there 😎
-[12/02/25, 11:12:31] Elena: Let's wait for more people to confirm.
+[10/01/25, Friday 10:11:31] Laura: The game from last Monday was so fun!
+[10/01/25, Friday 10:44:31] Carmen: The one at the indoor court?
+[10/01/25, Friday 10:19:31] Maria: Yes, it was fun! 🙌🏼⚽️
+[10/01/25, Friday 10:27:31] Sofia: Too bad you couldn't come, Elena!
+[10/01/25, Friday 10:32:31] Ana: Yes, it was fun! 
+[10/01/25, Friday 10:50:31] Julia: We should repeat soon!
+[10/01/25, Friday 11:06:31] Isabel: Yes, glad that my team won! 🙌🏼
+[10/01/25, Friday 11:15:31] Paula: Yes, it was fun! 👍
+[04/02/25, Tuesday 11:25:31] Victoria: Yes, it was fun! 👍
+[04/02/25, Tuesday 10:06:31] Julia: Who's up for a match?
+[04/02/25, Tuesday 10:11:31] Julia: How about next Tuesday at 18:00 at our regular field?
+[04/02/25, Tuesday 10:39:31] Sofia: Can we do at 20:00, instead?
+[04/02/25, Tuesday 10:19:31] Julia: That works for me!
+[04/02/25, Tuesday 10:16:31] Victoria: Is that the one near the mall?
+[04/02/25, Tuesday 10:19:31] Julia: Yes, that's the one!
+[04/02/25, Tuesday 10:28:31] Maria: Im in! 😎
+[04/02/25, Tuesday 10:39:31] Sofia: Let's do it!
+[04/02/25, Tuesday 10:54:31] Ana: If its 20:00, I'm in 👍
+[04/02/25, Tuesday 10:19:31] Julia: Yes, 20:00!
+[04/02/25, Tuesday 11:04:31] Laura: I'll bring the ball ⚽️
+[04/02/25, Tuesday 11:11:31] Carmen: Not sure yet. I'll let you know later
+[04/02/25, Tuesday 11:14:31] Elena: See you there!!
+[04/02/25, Tuesday 11:24:31] Isabel: Count me in! 🙌🏼⚽️
+[04/02/25, Tuesday 11:29:31] Paula: Wohoo! I'm in!
+[04/02/25, Tuesday 11:39:31] Victoria: Count me in! 👍
+[12/02/25, Wednesday 10:06:31] Paula: Who wants to play tomorrow at 19 o'clock next to falafel place?
+[12/02/25, Wednesday 10:16:31] Maria: I am out of town that day. I'll join next time!
+[12/02/25, Wednesday 10:21:31] Sofia: I'm! 
+[12/02/25, Wednesday 10:25:31] Ana: Count me in! 👍
+[12/02/25, Wednesday 11:00:31] Julia: Let's do it! 
+[12/02/25, Wednesday 11:12:31] Elena: Yeaah, can't wait! 👍
+[12/02/25, Wednesday 11:24:31] Isabel: I have an appointment. Can't come 💔.
+[12/02/25, Wednesday 11:30:31] Victoria: See you there 😎
+[12/02/25, Wednesday 11:12:31] Elena: Let's wait for more people to confirm.
 
 - EVENTS OUTPUT:
 [
@@ -118,16 +118,16 @@ EXAMPLE 1:
 EXAMPLE 2:
 
 - MESSAGE HISTORY:
-[22/11/24, 10:11:31] Sofia: We played on Wednesday at the usual spot. Good memories!
-[22/11/24, 10:25:31] Maria: Yes, it was fun! 👍
-[22/11/24, 10:36:31] Ana: Yes, it was fun! 👍
-[22/11/24, 10:43:31] Laura: Yes, it was fun! 👍
-[22/11/24, 10:50:31] Carmen: Yes, it was fun! 👍
-[22/11/24, 10:53:31] Julia: Missed it 😢
-[22/11/24, 11:07:31] Elena: Yes, it was fun! 👍
-[22/11/24, 11:20:31] Isabel: So sad I couldn't make it.
-[22/11/24, 11:26:31] Paula: Yes, it was fun! 👍
-[22/11/24, 11:40:31] Victoria: Yes, it was fun! 👍
+[22/11/24, Friday 10:11:31] Sofia: We played on Wednesday at the usual spot. Good memories!
+[22/11/24, Friday 10:25:31] Maria: Yes, it was fun! 👍
+[22/11/24, Friday 10:36:31] Ana: Yes, it was fun! 👍
+[22/11/24, Friday 10:43:31] Laura: Yes, it was fun! 👍
+[22/11/24, Friday 10:50:31] Carmen: Yes, it was fun! 👍
+[22/11/24, Friday 10:53:31] Julia: Missed it 😢
+[22/11/24, Friday 11:07:31] Elena: Yes, it was fun! 👍
+[22/11/24, Friday 11:20:31] Isabel: So sad I couldn't make it.
+[22/11/24, Friday 11:26:31] Paula: Yes, it was fun! 👍
+[22/11/24, Friday 11:40:31] Victoria: Yes, it was fun! 
 
 - EVENTS OUTPUT:
 [
@@ -137,15 +137,16 @@ EXAMPLE 2:
 EXAMPLE 3:
 
 - MESSAGE HISTORY:  
-[01/01/25, 10:06:31] Victoria: Who wants to play on Friday at 19:00 at the indoor court?
-[01/01/25, 10:18:31] Maria: Count me in! 👍
-[01/01/25, 10:21:31] Sofia: Count me in! 👍
-[01/01/25, 10:29:31] Ana: Count me in! 👍
-[01/01/25, 10:39:31] Laura: Count me in! 👍
-[01/01/25, 10:47:31] Carmen: Count me in! 👍
-[01/01/25, 10:54:31] Julia: Sorry, Im busy that day.
-[01/01/25, 11:08:31] Elena: Count me in! 👍
-[01/01/25, 11:30:31] Paula: Can't make it 😢
+[01/01/25, Wednesday 10:06:31] Victoria: Who wants to play on Friday at 19:00 at the indoor court?
+[01/01/25, Wednesday 10:18:31] Maria: Count me in! 👍
+[01/01/25, Wednesday 10:21:31] Sofia: Count me in! 👍
+[01/01/25, Wednesday 10:29:31] Ana: Count me in! 👍
+[01/01/25, Wednesday 10:39:31] Laura: Count me in! 👍
+[01/01/25, Wednesday 10:47:31] Carmen: Count me in! 👍
+[01/01/25, Wednesday 10:54:31] Julia: Sorry, Im busy that day.
+[01/01/25, Wednesday 11:08:31] Elena: Count me in! 👍
+[01/01/25, Wednesday 11:30:31] Paula: Can't make it 😢
+
 
 - EVENTS OUTPUT:
 [
@@ -156,14 +157,15 @@ EXAMPLE 3:
 EXAMPLE 4:
 
 - MESSAGE HISTORY:
-[01/01/25, 10:11:31] Paula: How about Sunday at 18:00 at the indoor court?
-[01/01/25, 10:16:31] Maria: Count me in! 👍
-[01/01/25, 10:21:31] Sofia: Count me in! 👍
-[01/01/25, 10:25:31] Ana: Count me in! 👍
-[01/01/25, 10:35:31] Laura: Can't make it 😢
-[01/01/25, 10:48:31] Carmen: Count me in! 👍
-[01/01/25, 11:00:31] Julia: Count me in! 👍
-[01/01/25, 11:12:31] Elena: Count me in! 👍
+[01/01/25, Wednesday 10:11:31] Paula: How about Sunday at 18:00 at the indoor court?
+[01/01/25, Wednesday 10:16:31] Maria: Count me in! 👍
+[01/01/25, Wednesday 10:21:31] Sofia: Count me in! 👍
+[01/01/25, Wednesday 10:25:31] Ana: Count me in! 👍
+[01/01/25, Wednesday 10:35:31] Laura: Can't make it 😢
+[01/01/25, Wednesday 10:48:31] Carmen: Count me in! 👍
+[01/01/25, Wednesday 11:00:31] Julia: Count me in! 👍
+[01/01/25, Wednesday 11:12:31] Elena: Count me in! 👍
+
 
 - EVENTS OUTPUT:
 [

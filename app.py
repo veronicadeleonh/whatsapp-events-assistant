@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd 
 from agent import process_messages
+from format_message_history import format_message_history
 from datetime import datetime
 
 
 # Title of the app
 st.title("WhatsApp Events Assistant")
-st.caption("🚀 A Streamlit Events Assistant powered by OpenAI")
+st.caption("🚀 An AI assistant to extract events from WhatsApp chat history")
 
 
 # Ask the user to upload the WhatsApp history file
@@ -16,8 +17,11 @@ uploaded_file = st.file_uploader("Upload your WhatsApp history file", type=["txt
 if uploaded_file is not None:
     history_text = uploaded_file.read().decode("utf-8")
 
+    # Format the message history
+    formatted_history_text = format_message_history(history_text)
+
     # Process the messages and display the events   
-    event_df = process_messages(history_text)
+    event_df = process_messages(    formatted_history_text)
 
     # divider
     st.divider()
@@ -72,6 +76,7 @@ if uploaded_file is not None:
                 <p>⏰ {row['time']}</p>
                 <p>📍 {row['location']}</p>
                 <p>Participants: {', '.join(row['participants'])}</p>
+                <p>Number of Participants: {row['number_of_participants']}</p>
                 <p>Not attending: {', '.join(row['not_attending'])}</p>
                 <p>Didn't confirm: {', '.join(row['didnt_confirm'])}</p>
             </div>
@@ -83,9 +88,6 @@ if uploaded_file is not None:
 
     # subheader
     st.subheader("Events Summary")
-
-    # divider transparent
-    st.markdown("<hr style='border: none; height: 1px; background-color: transparent;'>", unsafe_allow_html=True)
 
     # Display the events as cards
     display_event_cards(event_df)

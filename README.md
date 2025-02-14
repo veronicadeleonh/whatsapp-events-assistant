@@ -2,16 +2,12 @@
 
 ## 📌 Project Overview
 
-The WhatsApp Events Assistant is a simple app that allows you to upload a chat history from WhatsApp and get a summary of the events mentioned in the chat.
+The WhatsApp Events Assistant is a simple app that allows users to upload a chat history from WhatsApp and get a summary of the events mentioned in the chat. Using the OpenAI API, the app can extract the events from the chat history and display them in a table.
 
 ## ✨ Features
 
 - Upload a chat history from WhatsApp
 - Get a summary of the events mentioned in the chat
-- Get a list of the people mentioned in the chat
-- Get a list of the places mentioned in the chat
-- Get a list of the dates mentioned in the chat
-- Get a list of the times mentioned in the chat
 
 ## Prerequisites
 

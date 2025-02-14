@@ -3,7 +3,6 @@ from openai import OpenAI
 import json
 import pandas as pd
 from dotenv import load_dotenv
-from datetime import datetime
 from prompts import SYSTEM_PROMPT
 
 
