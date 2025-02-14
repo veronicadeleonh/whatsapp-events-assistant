@@ -1,11 +1,3 @@
-from datetime import datetime, timedelta
-
-#TIME REFERENCE INSTRUCTIONS:
-#-   Current date: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
-#-   Current day of the week: {datetime.now().strftime("%A")}
-#-   Each message has a message timestamp (the time the message was sent).
-#-   Temporal expressions are relative to the message timestamp.
-
 SYSTEM_PROMPT = """
 
 You are an expert at understanding event-related conversations and temporal references in chat messages. 
