@@ -1,7 +1,7 @@
 from datetime import datetime
 import re
 
-def format_message_history(sample_message_history):
+def get_formatted_message(message):
     # Define a regex pattern to find timestamps in the format [DD/MM/YY, HH:MM:SS]
     pattern = r'\[(\d{2}/\d{2}/\d{2}), (\d{2}:\d{2}:\d{2})\]'
     
@@ -19,6 +19,6 @@ def format_message_history(sample_message_history):
         return f"[{date_str}, {day_of_week} {time_str}]"
 
     # Replace all timestamps in the message history
-    formatted_message_history = re.sub(pattern, replace_timestamp, sample_message_history)
+    formatted_message = re.sub(pattern, replace_timestamp, message)
     
-    return formatted_message_history
+    return formatted_message

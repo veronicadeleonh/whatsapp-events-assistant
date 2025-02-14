@@ -1,8 +1,8 @@
 import streamlit as st
-import pandas as pd 
-from agent import process_messages
-from format_message_history import format_message_history
+import pandas as pd
 from datetime import datetime
+from agent import process_messages
+from format_message import get_formatted_message
 
 
 # Title of the app
@@ -18,10 +18,10 @@ if uploaded_file is not None:
     history_text = uploaded_file.read().decode("utf-8")
 
     # Format the message history
-    formatted_history_text = format_message_history(history_text)
+    formatted_history_text = get_formatted_message(history_text)
 
     # Process the messages and display the events   
-    event_df = process_messages(    formatted_history_text)
+    event_df = process_messages(formatted_history_text)
 
     # divider
     st.divider()
@@ -39,7 +39,7 @@ if uploaded_file is not None:
     # Create a copy of the event_df
     events_overview = event_df.copy()
     # Select the columns to display
-    events_overview = events_overview[['event_date', 'time', 'participants', 'location']]
+    events_overview = events_overview[['event_date', 'time', 'event_name','participants', 'location']]
     # Sort the events by date, with the most recent events first
     events_overview = events_overview.sort_values(by='event_date', ascending=False)
 

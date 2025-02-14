@@ -13,7 +13,7 @@ client = OpenAI()
 class CalendarEvent(BaseModel):
     event_date: str = Field(description="The date of the event. Not the date the message timestamp.")
     time: str = Field(description="The time of the event")
-    name: str = Field(description="The name of the event")
+    event_name: str = Field(description="The name of the event")
     participants: list[str] = Field(description="The participants of the event")
     number_of_participants: int = Field(description="The number of participants of the event")
     not_attending: list[str] = Field(description="The people who are not attending the event")
@@ -23,7 +23,7 @@ class CalendarEvent(BaseModel):
 class CalendarEvents(BaseModel):
     events: list[CalendarEvent]
 
-def process_messages(message_history):
+def process_messages(message):
     
     # Initialize the OpenAI client
     client = OpenAI()
@@ -33,7 +33,7 @@ def process_messages(message_history):
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": message_history},
+            {"role": "user", "content": message},
         ],
         response_format=CalendarEvents,
     )
