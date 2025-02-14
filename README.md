@@ -1,10 +1,10 @@
-#WhatsApp Events Assistant
+# WhatsApp Events Assistant
 
-##📌 Project Overview
+## 📌 Project Overview
 
 The WhatsApp Events Assistant is a simple app that allows you to upload a chat history from WhatsApp and get a summary of the events mentioned in the chat.
 
-##✨ Features
+## ✨ Features
 
 - Upload a chat history from WhatsApp
 - Get a summary of the events mentioned in the chat
@@ -13,13 +13,13 @@ The WhatsApp Events Assistant is a simple app that allows you to upload a chat h
 - Get a list of the dates mentioned in the chat
 - Get a list of the times mentioned in the chat
 
-##Prerequisites
+## Prerequisites
 
 - Python 3.10+
 - pip
 - OpenAI API key
 
-##Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/yourusername/whatsapp-events-assistant.git
 cd whatsapp-events-assistant
@@ -32,7 +32,7 @@ npm install
 
 Create a .env file and configure environment variables.
 
-📖 Usage
+## 📖 Usage
 
 - Run the app:
 
