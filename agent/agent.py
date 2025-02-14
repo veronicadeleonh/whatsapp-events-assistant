@@ -3,7 +3,7 @@ from openai import OpenAI
 import json
 import pandas as pd
 from dotenv import load_dotenv
-from prompts import SYSTEM_PROMPT
+from agent.prompts import SYSTEM_PROMPT
 
 
 load_dotenv()

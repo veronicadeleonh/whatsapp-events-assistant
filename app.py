@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-from agent import process_messages
-from format_message import get_formatted_message
+from agent.agent import process_messages
+from utils.format_message import get_formatted_message
 
 
 # Title of the app
