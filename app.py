@@ -64,21 +64,23 @@ if uploaded_file is not None:
 
             # Determine if the event is past or upcoming
             if event_date < today:
-                event_label = f"<span style='color: red;'>Past Event</span>"  # Red for past events
+                event_label = f"<span style='color: #57606f; background-color: rgb(87 96 111 / 10%); padding: 1% 2%; border-radius: 4px; height: fit-content;'>Past Event</span>"
             else:
-                event_label = f"<span style='color: green;'>Upcoming Event</span>" 
+                event_label = f"<span style='color: #2ed573; background-color: #2ed5731f; padding: 1% 2%; border-radius: 4px; height: fit-content;'>Upcoming Event</span>" 
 
             # Custom card with border and shadow
             card_html = f"""
-            <div style="border-radius: 8px; padding: 4%; margin: 10px 0; box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);">
+            <div style="display:flex; justify-content: space-between; border-radius: 8px; padding: 4%; margin: 10px 0; box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);">
+                <div>
+                    <p style="font-weight: bold;">{event_date.strftime('%d.%m.%y')} - <span style="font-weight: normal;">{day_of_week}</span> </p>
+                    <p>⏰ {row['time']}</p>
+                    <p>📍 {row['location']}</p>
+                    <p>Participants: {', '.join(row['participants'])}</p>
+                    <p>Number of Participants: {row['number_of_participants']}</p>
+                    <p>Not attending: {', '.join(row['not_attending'])}</p>
+                    <p>Didn't confirm: {', '.join(row['didnt_confirm'])}</p>
+                </div>
                 {event_label}
-                <p style="font-weight: bold;">{event_date.strftime('%d.%m.%y')} - <span style="font-weight: normal;">{day_of_week}</span> </p>
-                <p>⏰ {row['time']}</p>
-                <p>📍 {row['location']}</p>
-                <p>Participants: {', '.join(row['participants'])}</p>
-                <p>Number of Participants: {row['number_of_participants']}</p>
-                <p>Not attending: {', '.join(row['not_attending'])}</p>
-                <p>Didn't confirm: {', '.join(row['didnt_confirm'])}</p>
             </div>
             """
             st.markdown(card_html, unsafe_allow_html=True)  # Render the card
